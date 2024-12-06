@@ -11,7 +11,7 @@ import { Divider } from "@/components/ui/divider";
 export default function ServicesScreen() {
   return (
     <SafeAreaView className="flex-1 bg-black">
-      <VStack>
+      <VStack className="px-4">
         <Heading className="text-typography-700 my-4" size="3xl">
           Services
         </Heading>
